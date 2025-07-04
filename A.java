@@ -10,6 +10,9 @@ public class A {
 
 	System.out.println("Added in abc on 4/7/2024 again");
 
+        String name = args.length > 0 ? args[0] : "Unknown";
+        System.out.println("Hello, Mr. " + name);
+
 
 	
     }
